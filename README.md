@@ -22,7 +22,7 @@ Run the application local docker container
  
  3.) Use AWS CloudWatch or ELK for the manage logs.
  
- 4) For production deployment use AWS EKS or AWS ROSA. 
+ 4.) For production deployment use AWS EKS or AWS ROSA. 
  
  
  
