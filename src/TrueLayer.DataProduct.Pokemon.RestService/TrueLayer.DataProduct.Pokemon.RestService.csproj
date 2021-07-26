@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>7e902bdc-df92-49f3-bf9c-06e4d1ccb551</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrueLayer.DataProduct.Pokemon.Manager\TrueLayer.DataProduct.Pokemon.Manager.csproj" />
+    <ProjectReference Include="..\TrueLayer.DataProduct.Pokemon.Shared\TrueLayer.DataProduct.Pokemon.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
