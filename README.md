@@ -15,6 +15,10 @@ Run the application local docker container
       
 5.) Run the following docker comman run the application
       docker container run -d  -p 5000:5000 <dockerhub-account>/truelayer:1.0
+ 
+6.) Open the browser 
+      http://localhost:5000/pokemon/<pokemon-name>
+      http://localhost:5000/pokemon/translated/<pokemon-name>
       
  # For the production 
  1.) Authentication and Authorization In TrueLayer-Pokemon rest-api using  JSON Web Tokens.
