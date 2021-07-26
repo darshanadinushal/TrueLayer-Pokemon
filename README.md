@@ -3,6 +3,7 @@
 # How to run TrueLayer-Pokemon
 
 Run the application local docker container 
+
 1.) Download the Docker Desktop (https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
 2.) Clone the source code from my git repository.
